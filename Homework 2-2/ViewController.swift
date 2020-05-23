@@ -39,7 +39,8 @@ class ViewController: UIViewController {
         greenColorValueLabel.text = String(greenSliderOutlet.value)
         blueColorValueLabel.text = String(blueSliderOutlet.value)
         
-        //View starting color
+        //View starting preferences
+        colorFieldView.layer.cornerRadius = 10
         let redSliderValue = CGFloat(redColorSliderOutlet.value)
         let greenSliderValue = CGFloat(greenSliderOutlet.value)
         let blueSliderValue = CGFloat(blueSliderOutlet.value)
